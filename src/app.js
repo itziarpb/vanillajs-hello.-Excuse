@@ -6,12 +6,11 @@ import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
 window.onload = () => {
-  //write your code here
   document.querySelector("#excuse").innerHTML = generateExcuse();
 };
 
 let generateExcuse = () => {
-  let who = ["The dog", "My granma", "His turtle", "My bird"];
+  let who = ["The dog", "My granma", "A ghost", "My bird"];
   let whatDid = ["eat", "pissed", "crushed", "broked"];
   let what = ["my homeworks", "the TV", "my stuff"];
   let when = [
